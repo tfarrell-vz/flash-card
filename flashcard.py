@@ -15,9 +15,15 @@ class Deck:
     """
     def __init__(self, cards=None):
         """
-        A deck can be initialized with a list of cards. 
+        A deck can be initialized with a list of cards.
         """
         if cards:
             self.cards = cards
         else:
             self.cards = []
+
+    def add_card(self, card):
+        self.cards.append(card)
+
+    def remove_card(self, card):
+        self.cards.remove(card)
