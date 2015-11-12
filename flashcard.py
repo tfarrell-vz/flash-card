@@ -1,4 +1,4 @@
-class FlashCard():
+class FlashCard:
     """
     A flash card is an abstraction of the physical flash cards we are familiar
     with. It contains text on the front that quizzes our memory, with the answer
