@@ -7,3 +7,17 @@ class FlashCard:
     def __init__(self, front=None, back=None):
         self.front = front
         self.back = back
+
+
+class Deck:
+    """
+    A deck is a container of flash cards.
+    """
+    def __init__(self, cards=None):
+        """
+        A deck can be initialized with a list of cards. 
+        """
+        if cards:
+            self.cards = cards
+        else:
+            self.cards = []
